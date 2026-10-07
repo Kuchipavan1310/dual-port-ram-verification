@@ -1,0 +1,50 @@
+Parsing design file 'design.sv'
+Parsing design file 'testbench.sv'
+Parsing included file 'ram_if.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_txn.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_gen.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_wdrv.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_rdrv.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_wmon.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_rmon.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_rm.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_sb.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_env.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ram_test.sv'.
+Back to file 'testbench.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling module dual_port_ram
+recompiling module ram_if
+recompiling module top
+All of 4 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib -L/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib  -Wl,-rpath-link=./   objs/amcQw_d.o  _286_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs      -lvcsnew -ldistsimclient -lsimprofile -luclinative /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .919 seconds to compile + .865 seconds to elab + .548 seconds to link
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oct  7 10:07 2026
+[RM] Address X not found
+[SB] Data Matched Successfully
+[SB] Data Matched Successfully
+$finish called from file "testbench.sv", line 40.
+$finish at simulation time                  200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 200 ns
+CPU Time:      0.670 seconds;       Data structure size:   0.0Mb
